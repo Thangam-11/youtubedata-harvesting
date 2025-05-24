@@ -1,9 +1,12 @@
+README.md
 setup.py
 YouTube_Data_Harvesting_and_Analysis.egg-info/PKG-INFO
 YouTube_Data_Harvesting_and_Analysis.egg-info/SOURCES.txt
 YouTube_Data_Harvesting_and_Analysis.egg-info/dependency_links.txt
 YouTube_Data_Harvesting_and_Analysis.egg-info/requires.txt
 YouTube_Data_Harvesting_and_Analysis.egg-info/top_level.txt
+config/__init__.py
+config/config.py
 modules/__init__.py
 modules/database.py
 modules/datapreprocessing.py

@@ -10,6 +10,7 @@ Requires-Dist: google-api-python-client
 Requires-Dist: mysql-connector-python
 Requires-Dist: sqlalchemy
 Requires-Dist: python-dotenv
+Requires-Dist: pymongo
 Dynamic: author
 Dynamic: author-email
 Dynamic: requires-dist
