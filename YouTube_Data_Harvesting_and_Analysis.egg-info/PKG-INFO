@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: YouTube-Data-Harvesting-and-Analysis
+Version: 0.0.1
+Author: thangarasu
+Author-email: thangamani1128@gmail.com
+Requires-Python: >=3.10
+Requires-Dist: streamlit
+Requires-Dist: pandas
+Requires-Dist: google-api-python-client
+Requires-Dist: mysql-connector-python
+Requires-Dist: sqlalchemy
+Requires-Dist: python-dotenv
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: requires-python
