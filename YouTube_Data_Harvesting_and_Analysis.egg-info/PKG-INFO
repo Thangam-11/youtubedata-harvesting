@@ -11,6 +11,7 @@ Requires-Dist: mysql-connector-python
 Requires-Dist: sqlalchemy
 Requires-Dist: python-dotenv
 Requires-Dist: pymongo
+Requires-Dist: isodate
 Dynamic: author
 Dynamic: author-email
 Dynamic: requires-dist
