@@ -5,6 +5,7 @@
  sqlalchemy 
  python-dotenv
  pymongo
+ isodate
 
  -e .
  

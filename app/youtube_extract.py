@@ -4,6 +4,7 @@ import isodate
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from config.config import get_youtube_api_key
+from app.mongodb_handler import MongoDBHandler
 
 
 class YouTubeExtract:
@@ -18,6 +19,7 @@ class YouTubeExtract:
             id=channel_id
         )
         response = request.execute()
+
         item = response['items'][0]
 
         return {
@@ -194,4 +196,6 @@ class YouTubeExtract:
             'playlist': playlists,
             'video': videos,
             'comment': comments
+
         }
+ 

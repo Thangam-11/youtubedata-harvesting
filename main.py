@@ -23,7 +23,7 @@ def get_channel_id_by_handle(handle):
 
 if __name__ == "__main__":
     try:
-        handle = "UCZLJf_R2sWyUtXSKiKlyvAw"  # or use actual channel ID like "UCZLJf_R2sWyUtXSKiKlyvAw"
+        handle = "UC-DN_3LKlMTrouRNa9X0siQ"  # or use actual channel ID like "UCZLJf_R2sWyUtXSKiKlyvAw"
         channel_id = get_channel_id_by_handle(handle)
         
         yt = YouTubeExtract()
